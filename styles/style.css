@@ -28,6 +28,16 @@ button:hover {
     border: 1px solid #FFFFFF;
 }
 
+.btn-blue {
+    color: #FFFFFF;
+    background: #005FAC;
+}
+
+.btn-blue:hover {
+    color: #005FAC;
+    background: #FFFFFF;
+}
+
 /* hero section css */
 #hero {
     height: 100vh;
@@ -155,4 +165,100 @@ button:hover {
     color: #737272;
     font-size: 25px;
     font-weight: 500;
+}
+
+#mindset {
+    width: 71.25%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.mindset-container {
+    margin-top: 130px;
+    background: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 59px 64px;
+    border-radius: 8px;
+}
+
+.content {
+    max-width: 459px;
+}
+
+.content h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+footer {
+    background: #151414;
+    margin-top: 130px;
+}
+
+.footer-container {
+    width: 71.25%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.footer-content {
+    max-width: 485px;
+}
+
+.footer-content h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.footer-content p {
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
+.text {
+    margin-bottom: 24px;
+}
+
+.mail {
+    margin-bottom: 8px;
+}
+
+.p-num {
+    margin-bottom: 32px;
+}
+
+.social img {
+    margin-right: 18px;
+}
+
+.subscribe h3 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+.subscribe input {
+    width: 325px;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 22px;
+    color: #F3F3F3;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.subscribe input::placeholder {
+    color: #F3F3F3;
 }
