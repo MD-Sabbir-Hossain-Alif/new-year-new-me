@@ -1,0 +1,158 @@
+/* Google Work Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* sheared css */
+button {
+    color: #005FAC;
+    background: #FFFFFF;
+    padding: 18px 22px;
+    border-radius: 5px;
+    border: 1px solid #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background: #005FAC;
+    border: 1px solid #FFFFFF;
+}
+
+/* hero section css */
+#hero {
+    height: 100vh;
+    background: url(../images/banner/banner3.png) no-repeat center / cover;
+}
+
+.banner-container {
+    width: 71.25%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-content {
+    max-width: 525px;
+    padding-top: 260px;
+    text-align: right;
+}
+
+.banner-content h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner-content p {
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 31px;
+    margin-bottom: 32px;
+}
+
+#failures {
+    width: 71.25%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.failures-container {
+    width: 1072px;
+    margin-top: 131px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+}
+
+.failur-img img {
+    height: 723px;
+    width: 569px;
+    object-fit: contain;
+}
+
+.failurs-content h2 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.failurs-content p {
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #444343;
+}
+
+.failure-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.failure-list p {
+    margin-bottom: 0;
+}
+
+.failure-list p i {
+    font-size: 24px;
+    color: #16D887;
+}
+
+#plan {
+    width: 71.25%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.plan-container {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.plan-container h2 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.plan-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+}
+
+.card img {
+    height: auto;
+    width: 93px;
+    margin-bottom: 24px;
+}
+
+.card h3 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.card p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
